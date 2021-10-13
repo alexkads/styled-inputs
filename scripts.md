@@ -1,3 +1,6 @@
+## Carregando
+> yarn storybook
+
 ## Teste unitário
 > yarn test
 

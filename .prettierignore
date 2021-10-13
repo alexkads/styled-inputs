@@ -1,5 +1,6 @@
 dist
 node_modules
+examples
 coverage
 .next
 build
