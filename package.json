@@ -1,6 +1,6 @@
 {
   "name": "styled-inputs",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "dist/index.js",
   "license": "MIT",
   "keywords": [
@@ -38,6 +38,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "tsc -p .",
-    "test": "jest"
+    "test": "jest",
+    "package": "yarn build && yarn publish"
   }
 }
