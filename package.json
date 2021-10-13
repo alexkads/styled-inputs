@@ -1,6 +1,6 @@
 {
   "name": "styled-inputs",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "dist/index.js",
   "license": "MIT",
   "keywords": [
@@ -20,6 +20,10 @@
     "@storybook/addon-essentials": "^6.3.11",
     "@storybook/addon-links": "^6.3.11",
     "@storybook/react": "^6.3.11",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.3.0",
+    "@types/jest": "^27.0.2",
     "@types/react": "^17.0.29",
     "babel-loader": "^8.2.2",
     "eslint": "^8.0.0",
