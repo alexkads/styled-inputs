@@ -1,6 +1,6 @@
 {
   "name": "styled-inputs",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "dist/index.js",
   "license": "MIT",
   "keywords": [
@@ -23,6 +23,7 @@
     "@types/react": "^17.0.29",
     "babel-loader": "^8.2.2",
     "eslint": "^8.0.0",
+    "jest": "^27.2.5",
     "prettier": "^2.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -32,6 +33,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "test": "jest"
   }
 }
