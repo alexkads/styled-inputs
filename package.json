@@ -39,6 +39,6 @@
     "build-storybook": "build-storybook",
     "build": "tsc -p .",
     "test": "jest",
-    "package": "yarn build && yarn publish"
+    "package": "yarn test && yarn build && yarn publish"
   }
 }
