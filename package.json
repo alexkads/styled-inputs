@@ -1,13 +1,13 @@
 {
   "name": "styled-inputs",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "license": "MIT",
   "keywords": [
     "React",
     "Components"
   ],
-  "author": "Alex S S Fonsexa",
+  "author": "Alex S S Fonseca",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexkads/styled-inputs.git"
