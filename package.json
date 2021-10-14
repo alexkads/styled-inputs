@@ -64,7 +64,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "tsc -p .",
-    "test": "test",
-    "package": "yarn build && yarn publish"
+    "test": "jest",
+    "package": "yarn test && yarn build && yarn publish"
   }
 }
