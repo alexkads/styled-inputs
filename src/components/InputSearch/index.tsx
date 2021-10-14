@@ -19,3 +19,5 @@ export const InputSearch = ({
     </StyledInput>
   );
 };
+
+export default InputSearch;

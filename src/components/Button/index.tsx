@@ -14,3 +14,5 @@ export const Button = ({ children, style, onClick }: ButtonProps) => {
     </StyledButton>
   );
 };
+
+export default Button;
