@@ -1,5 +1,5 @@
 import React, { InputHTMLAttributes } from "react";
-import "./styles.css";
+import { StyledButton } from "./styles";
 
 export interface ButtonProps {
   children?: React.ReactNode;
@@ -9,8 +9,8 @@ export interface ButtonProps {
 
 export const Button = ({ children, style, onClick }: ButtonProps) => {
   return (
-    <button className="Button" style={style} onClick={onClick}>
+    <StyledButton style={style} onClick={onClick}>
       {children}
-    </button>
+    </StyledButton>
   );
 };
