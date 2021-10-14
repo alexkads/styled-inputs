@@ -1,6 +1,6 @@
 import React, { InputHTMLAttributes } from "react";
 import { StyledInput } from "./styled";
-export interface ButtonProps {
+export interface InputSearchProps {
   children?: React.ReactNode;
   style?: React.CSSProperties;
   onChange?: React.ChangeEventHandler<HTMLInputElement>;
@@ -12,7 +12,7 @@ export const InputSearch = ({
   style,
   value,
   onChange,
-}: ButtonProps) => {
+}: InputSearchProps) => {
   return (
     <StyledInput style={style} value={value} onChange={onChange}>
       {children}
