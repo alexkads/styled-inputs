@@ -1,4 +1,4 @@
-import React, { InputHTMLAttributes } from "react";
+import React from "react";
 import { StyledInput } from "./styled";
 export interface InputSearchProps {
   children?: React.ReactNode;
@@ -19,5 +19,3 @@ export const InputSearch = ({
     </StyledInput>
   );
 };
-
-export default InputSearch;
