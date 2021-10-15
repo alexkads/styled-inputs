@@ -10,7 +10,7 @@
     "moduleResolution": "node",
     "skipLibCheck": true,
     "outDir": "./dist",
-    "rootDirs": ["./src"],
+    "rootDirs": ["./src", "./stories"],
     "strict": true,
     "noFallthroughCasesInSwitch": true,
     "suppressImplicitAnyIndexErrors": true,
