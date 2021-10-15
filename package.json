@@ -1,7 +1,7 @@
 {
   "name": "styled-inputs",
-  "version": "0.0.40",
-  "main": "index.js",
+  "version": "0.0.41",
+  "main": "dist/index.js",
   "license": "MIT",
   "keywords": [
     "React",
@@ -13,6 +13,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexkads/styled-inputs.git"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0",
+    "react-is": ">= 16.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
