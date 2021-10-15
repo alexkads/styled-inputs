@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
     "module": "esnext",
-    "lib": ["dom", "esnext"],
+    "target": "ESNext",
     "declaration": true,
     "emitDeclarationOnly": true,
     "isolatedModules": true,
@@ -27,12 +26,5 @@
     "forceConsistentCasingInFileNames": true
   },
   "include": ["src/*.ts", "src/*.tsx"],
-  "exclude": ["node_modules", "examples"],
-  "ts-node": {
-    "compilerOptions": {
-      "module": "CommonJS",
-      "resolveJsonModule": true,
-      "noImplicitAny": false
-    }
-  }
+  "exclude": ["node_modules", "examples"]
 }
