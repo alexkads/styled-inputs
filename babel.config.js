@@ -19,6 +19,7 @@ module.exports = {
       },
     ],
     "@babel/preset-typescript",
+    "minify",
   ],
   plugins: [
     "@babel/plugin-syntax-jsx",
