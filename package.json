@@ -1,7 +1,8 @@
 {
   "name": "styled-inputs",
-  "version": "0.0.34",
-  "main": "dist/index.js",
+  "version": "0.0.35",
+  "main": "dist/styled-inputs.cjs.js",
+  "module": "dist/styled-inputs.esm.js",
   "license": "MIT",
   "keywords": [
     "React",
