@@ -1,2 +1,2 @@
-export * from "./components/Button";
-export * from "./components/InputSearch";
+export { Button } from "./components/Button";
+export { InputSearch } from "./components/InputSearch";
