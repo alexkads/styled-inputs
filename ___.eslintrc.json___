@@ -4,13 +4,17 @@
     "es2021": true,
     "jest": true
   },
-  "extends": ["plugin:react/recommended", "airbnb"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 2017,
+    "ecmaVersion": 12,
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
@@ -36,7 +40,10 @@
     "react/no-unescaped-entities": "off",
     "prefer-spread": "off",
     "react/react-in-jsx-scope": "warn",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".tsx"] }
+    ],
     "react/jsx-props-no-spreading": "off",
     "space-before-function-paren": "off",
     "react-hooks/rules-of-hooks": "off", // Checks rules of Hooks

@@ -1,8 +1,20 @@
-import styled from "styled-components";
+import styled, {
+  css, DefaultTheme
+} from "styled-components";
+import { theme } from "../../styles/theme";
 
-export const StyledButton = styled.button`
-  background-color:rgb(113, 111, 111);
+export interface StyledButtonProps {
+  colorDark: boolean;
+}
+
+export const StyledButton = styled.button<StyledButtonProps>`
+  background-color: rgb(113, 111, 111);
   width: 200px;
   height: 200px;
-`;
 
+  ${({ theme: DefaultTheme, colorDark }) => css`
+    color: ${colorDark
+      ? theme.colors.primaryColor
+      : theme.colors.white};
+  `}
+`;

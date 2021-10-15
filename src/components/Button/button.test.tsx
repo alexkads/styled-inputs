@@ -1,7 +1,15 @@
+import "@testing-library/jest-dom";
+import "jest-styled-components";
 import React from "react";
-import renderer from "react-test-renderer";
-import { Button } from "../../index";
+import { Button } from "../Button";
+import { screen } from "@testing-library/react";
+import { renderTheme } from "./../../utils/renderTheme";
+import { theme } from "../../styles/theme";
 
-test("Link changes the class when hovered", () => {
-  renderer.create(<Button style={{ backgroundColor: "red" }}>Facebook</Button>);
+test("should render with default values", () => {
+  renderTheme(<Button colorDark={true}>Texto</Button>);
+  const button = screen.getByRole("button", { name: "Texto" });
+  expect(button).toHaveStyle({
+    color: theme.colors.primaryColor,
+  });
 });
