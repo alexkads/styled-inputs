@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2015",
+    "target": "es5",
     "module": "esnext",
-    "lib": ["dom", "dom.iterable", "es2018"],
+    "lib": ["dom", "esnext"],
     "declaration": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
     "sourceMap": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
@@ -21,8 +23,16 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "downlevelIteration": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/*.ts", "src/*.tsx"],
-  "exclude": ["node_modules", "examples"]
+  "exclude": ["node_modules", "examples"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "resolveJsonModule": true,
+      "noImplicitAny": false
+    }
+  }
 }
