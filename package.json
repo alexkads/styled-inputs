@@ -1,6 +1,6 @@
 {
   "name": "styled-inputs",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "main": "dist/index.js",
   "license": "MIT",
   "keywords": [
@@ -85,7 +85,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "tsc -p .",
-    "build2": "babel src --extensions \".js,.ts,.tsx\" --out-dir dist --copy-files --no-copy-ignored",
+    "build2": "babel src --extensions \".js,.ts,.tsx\" --out-dir dist --copy-files --no-copy-ignored --source-maps inline",
     "test": "jest",
     "package": "yarn test && yarn build && yarn publish"
   },
