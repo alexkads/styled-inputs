@@ -1,5 +1,3 @@
-import "@testing-library/jest-dom";
-import "jest-styled-components";
 import React from "react";
 import { Button } from "../Button";
 import { screen } from "@testing-library/react";
