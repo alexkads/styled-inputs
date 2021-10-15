@@ -1,6 +1,6 @@
 {
   "name": "styled-inputs",
-  "version": "0.0.35",
+  "version": "0.0.36",
   "main": "dist/styled-inputs.cjs.js",
   "module": "dist/styled-inputs.esm.js",
   "license": "MIT",
