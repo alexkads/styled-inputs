@@ -1,7 +1,7 @@
 {
   "name": "styled-inputs",
-  "version": "0.0.39",
-  "main": "dist/index.js",
+  "version": "0.0.40",
+  "main": "index.js",
   "license": "MIT",
   "keywords": [
     "React",
